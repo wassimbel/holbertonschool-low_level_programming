@@ -18,9 +18,8 @@ int main(void)
     printf("%d", n);
     printf("is");
     if (j > 5)
-
     {
- printf("%d and is greater than 5", j);
+    printf("%d and is greater than 5", j);
     } else if (j < 6 && j != 0)
     {
     printf("%d and is less than 6 and not 0 ", j);
@@ -30,4 +29,3 @@ int main(void)
     printf("%d and is zero", j);
     }
 }
-
