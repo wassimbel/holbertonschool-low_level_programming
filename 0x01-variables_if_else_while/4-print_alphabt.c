@@ -13,7 +13,7 @@ if (ch != 'e' && ch != 'q')
 putchar(ch);
 ch++;
 }
-else 
+else
 {
 ch++;
 }
