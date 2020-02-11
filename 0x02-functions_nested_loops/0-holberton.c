@@ -2,21 +2,18 @@
 
 /**
  *main -entry
- *
+ *@void: no argument
  *Return:0
- */
+ **/
 int main(void)
 {
-	_putchar('H');
-	_putchar('o');
-	_putchar('l');
-	_putchar('b');
-	_putchar('e');
-	_putchar('r');
-	_putchar('t');
-	_putchar('o');
-	_putchar('n');
-	_putchar('\n');
-
+char holberon[]="Holberton"
+int = ch;
+for(ch = a; ch < 9; ch++)
+{
+_putchar(holberton[]);
+ch++;
+}
+_putchar('\n');
 	return (0);
 }
