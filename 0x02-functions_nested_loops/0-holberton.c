@@ -8,7 +8,7 @@
 int main(void)
 {
 char holberon[] = "Holberton";
-int = ch;
+int ch;
 for (ch = 0; ch < 9; ch++)
 {
 _putchar(holberton[ch]);
