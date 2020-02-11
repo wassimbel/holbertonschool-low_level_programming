@@ -1,5 +1,6 @@
 #include "holberton.h"
 
+
 /**
  *print_last_digit - function to determine last digit
  *@n: integer
