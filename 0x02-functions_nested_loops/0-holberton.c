@@ -7,11 +7,11 @@
  **/
 int main(void)
 {
-char holberon[]="Holberton"
+char holberon[] = "Holberton";
 int = ch;
-for(ch = a; ch < 9; ch++)
+for (ch = a; ch < 9; ch++)
 {
-_putchar(holberton[]);
+_putchar(holberton[ch]);
 ch++;
 }
 _putchar('\n');
