@@ -1,18 +1,19 @@
-include "holberton.h"
+#include "holberton.h"
 /**
- *print_alphabet -print 10times the alphabet in lowercase
+ *print_alphabet_x10 -print 10times the alphabet in lowercase
  *@void: no argument
 **/
 void print_alphabet_x10(void)
 {
 char ch = 'a';
-int i = 0;
-for (ch = 'a'; ch <= 'z'; ch++)
-{
+int j = 0;
 for (int j = 0; j < 10; j++)
 {
-putchar(ch);
+for (ch = 'a'; ch <= 'z'; ch++)
+
+{
+_putchar(ch);
 }
 }
-putchar('\n');
+_putchar('\n');
 }
