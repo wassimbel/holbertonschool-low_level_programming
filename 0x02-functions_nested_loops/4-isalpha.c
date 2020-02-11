@@ -1,4 +1,5 @@
 #include "holberton.h"
+
 /**
  * _isalpha - check c for alphabetic character
  * @c: string
