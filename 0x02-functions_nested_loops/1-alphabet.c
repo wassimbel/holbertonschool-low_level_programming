@@ -1,10 +1,9 @@
 #include <holberton.h>
 /**
- *main -entry
- *
- *Return:0
- */
-int main(void)
+ *print_alphabet -print alpha
+ *@void: no argument
+**/
+void print_alphabet(void)
 {
 char ch;
 ch = 'a';

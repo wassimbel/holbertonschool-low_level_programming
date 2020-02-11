@@ -9,10 +9,9 @@ int main(void)
 {
 char holberon[] = "Holberton";
 int = ch;
-for (ch = a; ch < 9; ch++)
+for (ch = 0; ch < 9; ch++)
 {
 _putchar(holberton[ch]);
-ch++;
 }
 _putchar('\n');
 	return (0);
