@@ -1,18 +1,18 @@
-#include <holberton.h>
+#include "holberton.h"
 /**
  *print_alphabet -print alpha
  *@void: no argument
 **/
 void print_alphabet(void)
 {
-	char c;
+	char ch;
 
-	c = 'a';
+	ch = 'a';
 
-	while (c <= 'z')
+	while (ch <= 'z')
 	{
-		_putchar(c);
-		c++;
+		_putchar(ch);
+		ch++;
 	}
 	_putchar('\n');
 }
