@@ -1,4 +1,5 @@
 #include "holberton.h"
+
 /**
  *print_alphabet_x10 - print 10times the alphabet in lowercase
  *@void: no argument
@@ -9,6 +10,7 @@ char ch = 'a';
 int j = 0;
 for (j = 0; j < 10; j++)
 {
+ch = 'a';
 for (ch = 'a'; ch <= 'z';)
 {
 _putchar(ch);
