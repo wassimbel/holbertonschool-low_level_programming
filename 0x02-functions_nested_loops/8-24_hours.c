@@ -1,10 +1,8 @@
 #include "holberton.h"
 /**
- * void jack_bauer - print every minute of the day
+ * jack_bauer - print every minute of the day
  *
- * @r: is the Variable of the function.
- *
- * Return: min
+ * Return: min ofteh day 
  */
 
 void jack_bauer(void)
