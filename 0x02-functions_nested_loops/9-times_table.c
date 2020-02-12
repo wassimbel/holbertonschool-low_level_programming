@@ -19,8 +19,6 @@ if (j > 1)
 _putchar(x + '0');
 _putchar(',');
 }
-else
-{
 if (x < 10)
 {
 _putchar(' ');
