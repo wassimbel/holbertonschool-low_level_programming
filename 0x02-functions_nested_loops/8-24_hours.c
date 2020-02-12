@@ -2,9 +2,8 @@
 /**
  * jack_bauer - print every minute of the day
  *
- * Return: min ofteh day 
+ * Return: min of the day
  */
-
 void jack_bauer(void)
 {
 int h;
