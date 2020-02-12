@@ -1,1 +1,1 @@
-debug some codes
+\debug some codes
