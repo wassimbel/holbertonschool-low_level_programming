@@ -19,14 +19,14 @@ if (j > 1)
 _putchar(x + '0');
 _putchar(',');
 }
-if (x < 10)
+else if (x < 10)
 {
 _putchar(' ');
 _putchar(' ');
 _putchar(x + '0');
 _putchar(',');
 }
-else if (x > 10)
+if (x > 10)
 {
 _putchar(' ');
 _putchar(x / 10 + '0');
