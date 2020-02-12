@@ -18,8 +18,8 @@ for (m = 0; m < 60; m++)
 _putchar(m / 10);
 _putchar(m % 10);
 }
-putchar(h / 10);
-putchar(h % 10);
-putchar(':');
+_putchar(h / 10);
+_putchar(h % 10);
+_putchar(':');
 }
 }
