@@ -19,6 +19,7 @@ if (j > 0)
 {
 _putchar(x + '0');
 _putchar(',');
+}
 if (x < 10)
 {
 _putchar(' ');
