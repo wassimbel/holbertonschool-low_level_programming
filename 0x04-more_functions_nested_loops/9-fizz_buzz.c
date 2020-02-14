@@ -1,8 +1,7 @@
-#include "holberton.h"
 #include <stdio.h>
 /**
  *main - print numbers 1 to 100
- *
+ *@void: no void
  *Return: print to stdout numbers 1 to 100 except:
  *replace multiples of three print Fizz
  *replace multiples of five print Buzz
@@ -32,4 +31,5 @@ if (i < 100)
 printf(" ");
 }
 printf("\n");
+return (0);
 }
