@@ -1,5 +1,6 @@
 #include "holberton.h"
 
+
 /**
  * *_strcpy - copies string pointed to by src
  * @dest: character pointer
@@ -17,3 +18,4 @@ char *_strcpy(char *dest, char *src)
 
 	return (dest);
 }
+
