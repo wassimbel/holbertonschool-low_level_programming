@@ -17,4 +17,3 @@ char *_strcpy(char *dest, char *src)
 
 	return (dest);
 }
- 2020 GitHub, In
