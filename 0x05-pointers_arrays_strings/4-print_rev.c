@@ -5,9 +5,10 @@
 **/
 void print_rev(char *str)
 {
-int i;
-
-	for (i = str['\0']; i >= 0;  i--)
-		_putchar(str[i]);
-	_putchar('\n');
+int i = 0, j;
+while (str[i] != '\0')
+i++;
+for (j = i - 1 ; j >= 0;  j--)
+_putchar(str[j]);
+_putchar('\n');
 }
