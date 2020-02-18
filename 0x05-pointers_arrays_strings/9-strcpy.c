@@ -1,19 +1,17 @@
 #include "holberton.h"
 /**
-  * _strcpy - copies a string
-  * @dest: destionation string
-  * @src: source string
-  * Return: destination
-  */
+ * _strcpy - copie the string pointer to by src
+ * @dest: string
+ * @src: string
+ * Return: String
+ */
 char *_strcpy(char *dest, char *src)
 {
-	int i, c;
-
-	for (c = 0; src[c] != '\0'; c++)
-		;
-
-	for (i = 0; i < c; i++)
-		dest[i] = src[i];
-	return (dest);
+int a = 0, b;
+while (src[a] != '\0')
+a++;
+for (b = 0; b <= a; b++)
+dest[b] = src[b];
+return (dest);
 }
 
