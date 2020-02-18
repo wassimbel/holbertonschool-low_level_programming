@@ -1,12 +1,10 @@
 #include "holberton.h"
 /**
-*puts2 - print every other charracter of a string
-*@str: string
-**/
-
+  * puts2 - prints one character out of two
+  * @str: takes in a string
+  */
 void puts2(char *str)
 {
-
 	int i;
 
 	for (i = 0; str[i] != '\0'; i++)
