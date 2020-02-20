@@ -19,6 +19,10 @@ if (s[i] == a[j])
 {
 s[i] = b[j];
 }
+else
+{
+s[i] = a[j]
+}
 }
 }
 return (s);
