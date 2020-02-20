@@ -21,7 +21,7 @@ s[i] = b[j];
 }
 else if (s[i] == b[j])
 {
-s[i] = a[j]
+s[i] = a[j];
 }
 }
 }
