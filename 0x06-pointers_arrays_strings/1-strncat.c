@@ -1,12 +1,13 @@
 #include "holberton.h"
 /**
-**_strncat - concatenate two string
-*@dest:string
-*@src:string
+**_strncat - concatenate two string'
+*@dest:chars
+*@src:char
+*@n:integer
 *Return:pointer to dest
 **/
 
-char *_strncat(char *dest , char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 int i = 0, j;
 for (i = 0; dest[i] != '\0'; i++)
