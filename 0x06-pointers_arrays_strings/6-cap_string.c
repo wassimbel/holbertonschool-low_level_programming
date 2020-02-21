@@ -22,8 +22,6 @@ for (j = 0; a[j] != '\0' && s[i] != a[i]; j++)
 if (s[i] == a[i] && s[i + 1] >= 'a' && s[i + 1] <= 'z')
 
 s[i + 1] = s[i + 1] - 32;
-break;
-
 }
 
 return (s);
