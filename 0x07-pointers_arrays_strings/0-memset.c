@@ -1,6 +1,5 @@
 #include "holberton.h"
 
-
 /**
 **_memset - fills the memory with constant byte
 *@s:pointer
