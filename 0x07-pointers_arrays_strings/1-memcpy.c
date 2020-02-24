@@ -15,7 +15,7 @@ unsigned int i, j;
 for (i = 0; i < n; i++)
 for (j = 0; j < n; j++)
 {
-dest[i] = dest[j]
+dest[i] = src[j]
 }
 return (dest);
 }
