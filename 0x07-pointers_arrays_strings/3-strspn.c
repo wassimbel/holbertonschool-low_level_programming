@@ -20,9 +20,9 @@ if (s[i] == accept[j])
 e++;
 break;
 }
+}
 if (s[i] != accept[j])
 break;
-}
 }
 return (e);
 }
