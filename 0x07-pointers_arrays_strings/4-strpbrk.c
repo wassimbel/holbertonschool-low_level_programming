@@ -1,10 +1,10 @@
 #include "holberton.h"
 
 /**
-* _strpbrk - searches a string for any of a set of bytes
-* @s: string to check
-* @accept: string to check
-* Return: returns a pointer to the byte in s that matches one of the bytes in accept, or NULL if not found
+*_strpbrk - searches a string for any of a set of bytes
+*@s: string to check
+*@accept: string to check
+*Return: returns a pointer to the byte in s matches 1 of the bytes in accept
 **/
 
 char *_strpbrk(char *s, char *accept)
