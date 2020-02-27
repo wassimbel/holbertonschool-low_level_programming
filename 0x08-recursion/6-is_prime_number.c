@@ -1,12 +1,12 @@
 #include "holberton.h"
 
 
-
 /**
 *is_prime_number - returns a prime number
 *@n:integer
 *Return:integer
 */
+
 
 int is_prime_number(int n)
 {
