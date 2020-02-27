@@ -16,7 +16,7 @@ return (_prime_num(n, 2));
 }
 
 /**
-*helper_prime - helps find the prime number
+*_prime_num - helps find the prime number
 *@i:integr
 *@n:integer
 *Return:integer
@@ -26,7 +26,7 @@ int _prime_num(int n, int i)
 {
 if (n == i)
 {
-return(1);
+return (1);
 }
 else if (n % i == 0)
 {
