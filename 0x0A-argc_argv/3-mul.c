@@ -1,3 +1,4 @@
+#include "holberton.h"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -20,9 +21,7 @@ return (0);
 else
 {
 for (i = 1; i < argc; i++)
-{
 mul *= atoi(argv[i]);
-}
 printf("%d\n", mul);
 return (0);
 }
