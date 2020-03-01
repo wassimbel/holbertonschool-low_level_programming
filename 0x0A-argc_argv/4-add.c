@@ -15,13 +15,12 @@ int i = 1, sum = 0;
 if (argc == 0)
 {
 printf("0\n");
-return (0);
 }
 else
 {
 for (i = 1; i < argc; i++)
 {
-if (!(isdigit(*argv[i])) && (*argv[i]) > 0)
+if (!(isdigit(*argv[i])))
 {
 printf("Error\n");
 return (1);
