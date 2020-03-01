@@ -21,7 +21,7 @@ else
 {
 for (i = 1; i < argc; i++)
 {
-if (!(isdigit(*argv[i])))
+if (!(isdigit(*argv[i])) && (*argv[i] > 0))
 {
 printf("Error\n");
 return (1);
