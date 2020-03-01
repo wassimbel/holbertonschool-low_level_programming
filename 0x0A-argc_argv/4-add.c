@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
+
+
 /**
 *main - main function
 *@argc: number of arguments
