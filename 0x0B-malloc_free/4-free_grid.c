@@ -1,22 +1,15 @@
-#include "holberton.h"
 #include <stdlib.h>
+#include "holberton.h"
 /**
-  * free_grid - free grid space
-  * @grid: takes in the grid from #3
-  * @height: takes in the height
-  */
+*free_grid - free grid
+*@grid:grid
+*@height:height
+*Return:return 0
+*/
 void free_grid(int **grid, int height)
 {
-	int i;
-
-	if (grid == NULL || grid == 0)
-	{
-		return;
-	}
-	else
-	{
-		for (i = 0; i < height; i++)
-			free(grid[i]);
-		free(grid);
-	}
+int i;
+for (i = 0; i < height; i++)
+free(grid[i]);
+free(grid);
 }
