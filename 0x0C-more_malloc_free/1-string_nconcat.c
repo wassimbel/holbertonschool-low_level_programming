@@ -25,7 +25,7 @@ for (j = 0; s2[j] != '\0'; j++)
 ;
 if (n >= j)
 n = j;
-s3 = malloc((i * sizeof(*s1)) + (n * sizeof(int)) + 1);
+s3 = malloc((i * sizeof(*s1)) + (j * sizeof(*s2)) + 1);
 
 if (s3 == NULL)
 return (NULL);
