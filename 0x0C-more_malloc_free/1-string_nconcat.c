@@ -9,9 +9,9 @@
 *Return: return pointer or null
 **/
 
-char *string_nconcat(char *s1, char *s2, __attribute__((unused)) unsigned int n)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-int i, j, k, l, m;
+unsigned int i, j, k, l;
 char *s3;
 
 if (s1 == NULL)
@@ -23,7 +23,9 @@ for (i = 0; s1[i] != '\0'; i++)
 ;
 for (j = 0; s2[j] != '\0'; j++)
 ;
-s3 = malloc((i * sizeof(*s1)) + (j * sizeof(*s2)) + 1);
+if (n >= j)
+n = j;
+s3 = malloc((i * sizeof(*s1)) + (n * sizeof(*s2)) + 1);
 
 if (s3 == NULL)
 return (NULL);
@@ -31,8 +33,8 @@ return (NULL);
 for (k = 0; k < i; k++)
 s3[k] = s1[k];
 
-for (l = 0, m = i; m < j + i; l++, m++)
-s3[m] = s2[l];
+for (l = 0; l < n; l++)
+s3 [k + l] = s2[l];
 
 return (s3);
 }
