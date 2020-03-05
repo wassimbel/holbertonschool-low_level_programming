@@ -35,6 +35,6 @@ s3[k] = s1[k];
 
 for (l = 0; l < n; l++)
 s3 [k + l] = s2[l];
-
+s3[k + l] = '\0';
 return (s3);
 }
