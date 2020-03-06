@@ -26,5 +26,5 @@ for (j = 0; j < i; j++)
 p[j] = min;
 min++;
 }
-return(p);
+return (p);
 }
