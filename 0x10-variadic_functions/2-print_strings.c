@@ -17,8 +17,6 @@ char *s;
 
 va_start(ap, n);
 
-if (n > 0)
-{
 
 for (i = 0; i < n; i++)
 {
@@ -33,5 +31,4 @@ printf("%s", separator);
 }
 printf("\n");
 va_end(ap);
-}
 }
