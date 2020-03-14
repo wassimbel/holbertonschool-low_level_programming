@@ -8,7 +8,6 @@
 *@n : number of parameters based.
 *Return: void.
 **/
-
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 unsigned int i;
