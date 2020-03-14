@@ -1,5 +1,5 @@
 section .data
-msg db 10d,13d,"Hello, Holberton"
+msg db "Hello, Holberton", 10
 l equ $-msg
 
 section .text
