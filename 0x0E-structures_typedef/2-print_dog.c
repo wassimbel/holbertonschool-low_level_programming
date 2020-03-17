@@ -3,9 +3,9 @@
 
 
 /**
-  * print_dog - function that prints struct dog
-  * @d: pointer to dog
-  */
+ * print_dog - func prints struct dog
+ * @d: pointer to dog
+ */
 
 void print_dog(struct dog *d)
 {
