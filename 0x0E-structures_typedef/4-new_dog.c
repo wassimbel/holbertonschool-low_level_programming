@@ -59,16 +59,17 @@ owner2 = _strdup(owner);
 if (name == NULL || owner2 == NULL)
 {
 if (name2 == NULL)
-
+{
 free(doog);
 return (NULL);
-
+}
 if (owner2 == NULL)
+{
 free(name2);
 free(doog);
 return (NULL);
 }
-
+}
 doog->name = name2;
 doog->age = age;
 doog->owner = owner2;
