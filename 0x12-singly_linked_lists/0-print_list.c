@@ -17,8 +17,9 @@ int i;
 for (i = 0; h != NULL; i++)
 {
 if (h->str == NULL)
-printf("[0] (nil)");
-printf("[%d] %s\n", h->len, h->str);
+printf("[0] (nil)\n");
+else
+printf("[%u] %s\n", h->len, h->str);
 h = h->next;
 }
 return (i);
