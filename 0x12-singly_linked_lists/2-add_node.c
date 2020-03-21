@@ -33,7 +33,7 @@ if (head == NULL)
 return (NULL);
 
 
-new_node = (list_t*) malloc(sizeof(list_t));
+new_node = (list_t *) malloc(sizeof(list_t));
 if (new_node == NULL)
 return (NULL);
 
