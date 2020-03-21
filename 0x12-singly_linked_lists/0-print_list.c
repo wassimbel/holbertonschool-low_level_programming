@@ -3,6 +3,13 @@
 #include <string.h>
 #include <stdlib.h>
 
+/**
+ *print_list - print all elements of a list_t list
+ *@h: linked list to print
+ *Return: number of nodes
+ */
+
+
 size_t print_list(const list_t *h)
 {
 int i;
