@@ -21,7 +21,7 @@ node = head;
 if (head == NULL)
 return (NULL);
 
-for (i = 0; i && head < index; i++)
+for (i = 0; i < index; i++)
 {
 
 node = node->next;
