@@ -6,14 +6,12 @@
  * @head: pointer to the head of the list
  */
 
-void free_listint(list_t *head)
+void free_listint(listint_t *head)
 {
 
 if (head != NULL)
 {
-free_list(head->next);
-free(head->str);
+free_listint(head->next);
 free(head);
 }
-
 }
