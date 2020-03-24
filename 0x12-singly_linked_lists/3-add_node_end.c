@@ -20,8 +20,8 @@ return (i);
 /**
   * add_node_end - function that adds a new node
   * @head: pointer to pointer
-  * @str: takes in a string
-  * Return: pointer to the head
+  * @str: integer
+  * Return: pointer to the added element
   */
 
 
