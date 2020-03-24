@@ -19,5 +19,5 @@ new_list = *head;
 *head = new_list->next;
 n = new_list->n;
 free(new_list);
-return(n);
+return (n);
 }
