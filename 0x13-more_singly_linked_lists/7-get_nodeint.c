@@ -23,10 +23,7 @@ return (NULL);
 
 for (i = 0; i < index; i++)
 {
-if (index > i)
-{
-return (NULL)
-}
+
 node = node->next;
 }
 return (node);
