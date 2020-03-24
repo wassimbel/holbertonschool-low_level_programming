@@ -24,7 +24,9 @@ return (NULL);
 for (i = 0; i < index; i++)
 {
 if (index > i)
-return (NULL);
+{
+return (NULL)
+}
 node = node->next;
 }
 return (node);
