@@ -20,8 +20,6 @@ node = head;
 
 if (head == NULL)
 return (NULL);
-if (index > i)
-return (NULL);
 
 for (i = 0; i < index; i++)
 {
