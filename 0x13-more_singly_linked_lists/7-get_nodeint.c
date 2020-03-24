@@ -24,6 +24,6 @@ for (i = 0; i < index; i++)
 {
 node = node->next;
 }
-retrun (node);
+return (node);
 }
 
