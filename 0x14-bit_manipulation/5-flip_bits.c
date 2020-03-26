@@ -17,7 +17,7 @@ unsigned int count = 0, diff = n ^ m;
 while (diff != 0)
 {
 if (diff & 1)
-count += 1;
+count++;
 
 diff = diff >> 1;
 
