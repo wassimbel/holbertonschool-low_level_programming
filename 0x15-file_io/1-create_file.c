@@ -1,6 +1,11 @@
 #include "holberton.h"
 
-
+/**
+ * create_file - creates a file
+ * @filename : name of a file
+ * @text_content : the content of the file
+ * Return: Returns: 1 on success, -1 on failure
+ */
 
 
 
@@ -15,7 +20,7 @@ return (-1);
 op = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 600);
 if (op == -1)
 return (-1);
-return (1);
+
 
 for (re = 0; text_content[re] != '\0'; re++)
 ;
