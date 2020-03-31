@@ -1,5 +1,6 @@
 #include "holberton.h"
-#include <stdio.h>
+
+
 
 
 /**
@@ -58,7 +59,7 @@ exit(99);
 
 int main(int argc, char *argv[])
 {
-int file_from, file_to, file_read, file_write;
+int file_from, file_to, file_read, file_write, file_close, file_close1;
 char *buff;
 
 
@@ -74,7 +75,7 @@ file_from = open(argv[1], O_RDONLY);
 if (file_from == -1)
 readerr(argv[1]);
 
-file_to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
+file_to = open(argv[2], O_CREAT | O_RDONLY | O_WRONLY | O_TRUNC, 0664);
 if (file_to == -1)
 writeerr(argv[2]);
 
@@ -97,11 +98,14 @@ file_read = read(file_from, buff, 1024);
 if (file_read == -1)
 readerr(argv[1]);
 }
-file_write = close(file_to);
-closeerr(file_write);
 
-file_read = close(file_from);
-closeerr(file_read);
+file_close = close(file_from);
+if (file_close == -1)
+closeerr(file_close);
+
+file_close1 = close(file_to);
+if (file_close1 == -1)
+closeerr(file_close1);
 
 free(buff);
 return (0);
