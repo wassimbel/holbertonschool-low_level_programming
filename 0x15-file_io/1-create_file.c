@@ -22,7 +22,7 @@ if (op == -1)
 return (-1);
 
 if (text_content == NULL)
-return (op);
+return (1);
 
 for (re = 0; text_content[re] != '\0'; re++)
 ;
