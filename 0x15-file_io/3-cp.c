@@ -54,7 +54,12 @@ dprintf(STDERR_FILENO, "Error: Can't write to %s\n", str);
 exit(99);
 }
 
-
+/**
+  * main - entry point
+  * @argc: number of arguments
+  * @argv: array of arguments
+  * Return: 0 success
+  */
 
 
 int main(int argc, char *argv[])
