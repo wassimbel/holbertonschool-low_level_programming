@@ -17,10 +17,12 @@ int op, re, wr;
 if (filename == NULL)
 return (-1);
 
-op = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 600);
+op = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600);
 if (op == -1)
 return (-1);
 
+if (text_content == NULL)
+return (op);
 
 for (re = 0; text_content[re] != '\0'; re++)
 ;
