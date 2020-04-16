@@ -14,7 +14,7 @@ printf("%lu, %lu, ", x, y);
 
 for (i = 3; i <= 50; i++)
 {
-sum = x + y ;
+sum = x + y;
 x = y;
 y = sum;
 if (i < 50)
