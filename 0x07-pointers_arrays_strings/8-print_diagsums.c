@@ -18,7 +18,7 @@ for (j = 0; j < size; j++)
 if (i == j)
 x += a[i];
 if (i + j == size - 1)
-y += a[i];
+y += a[j];
 a++;
 }
 }
