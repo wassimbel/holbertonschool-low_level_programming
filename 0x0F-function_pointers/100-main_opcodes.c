@@ -29,3 +29,6 @@ for (i = 0; i < (x - 1); i++)
 if (x != 0)
 printf("%02hhx ", ((char *)main)[i]);
 }
+printf("%02hhx\n", ((char *)main)[i]);
+return (0);
+}
