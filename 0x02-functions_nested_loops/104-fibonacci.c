@@ -13,7 +13,7 @@ double x = 0, y = 0, z = 0;
 printf("%i, %i, ", 1, 2);
 x = 1;
 y = 2;
-for (i = 3 ; i <= 98 ; i++)
+for (i = 3 ; i <= 98 ; ++i)
 {
 z = x + y;
 
