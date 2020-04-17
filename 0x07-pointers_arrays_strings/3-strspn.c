@@ -2,9 +2,10 @@
 
 
 /**
-*int_strspn - gets the legnth of a prefix substring
+* _strspn - gets the legnth of a prefix substring
 *@s: string
 *@accept: string
+*Return: e
 **/
 
 unsigned int _strspn(char *s, char *accept)
