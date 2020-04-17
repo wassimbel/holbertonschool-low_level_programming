@@ -9,12 +9,18 @@
 
 void print_diagsums(int *a, int size)
 {
-int i, x = 0; y = 0;
+int i, j, x = 0, y = 0;
 
-for (i = 0; i < size * size; i += (size + 1))
+for (i = 0; i < size; i++)
+{
+for (j = 0; j < size; j++)
+{
+if (i == j)
 x += a[i];
-for (i = size - 1; i < (size * size) - (size - 1); i += (size - 1))
+if (i + j == size - 1)
 y += a[i];
+a++;
+}
+}
 printf("%d, %d\n", x, y);
 }
-
