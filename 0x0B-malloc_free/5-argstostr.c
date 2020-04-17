@@ -9,11 +9,10 @@
 
 int _strlen(char *s)
 {
-	int i = 0;
-
-	while (s[i] != '\0')
-		i++;
-	return (i);
+int i = 0;
+while (s[i] != '\0')
+i++;
+return (i);
 }
 
 
@@ -33,10 +32,8 @@ if (ac == 0 || av == NULL)
 return (NULL);
 
 for (i = 0; i < ac; i++)
-{
 args += _strlen(av[i]) + 1;
 str = malloc(sizeof(char) * args + 1);
-}
 if (str == NULL)
 return (NULL);
 
