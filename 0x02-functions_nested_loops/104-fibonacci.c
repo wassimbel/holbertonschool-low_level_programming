@@ -25,5 +25,6 @@ printf("%.0f", z);
 x = y;
 y = z;
 }
+printf("\n");
 return (0);
 }
