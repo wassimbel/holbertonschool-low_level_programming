@@ -17,12 +17,13 @@ unsigned int i = 0;
 
 new_node = malloc(sizeof(dlistint_t));
 
+if (new_node == NULL)
+	return (NULL);
+
+
 new_node->n = n;
 new_node->next = NULL;
 new_node->prev = NULL;
-
-if (new_node == NULL)
-	return (NULL);
 
 if (idx == 0)
 {
