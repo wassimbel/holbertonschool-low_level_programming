@@ -2,8 +2,8 @@
 
 /**
   * add_dnodeint_end - adds new node at the end of a list0
-  *@ head: head of linked list
-  *@ n: data of type int
+  *@head: head of linked list
+  *@n: data of type int
   * Return: the address of the new element, or NULL if it failed
   **/
 
@@ -26,8 +26,7 @@ if (temp == NULL)
 	*head = new_node;
 	return (new_node);
 }
-else
-{
+
 while (temp->next != NULL)
 {
 	temp = temp->next;
@@ -36,7 +35,6 @@ while (temp->next != NULL)
 temp->next = new_node;
 new_node->prev = temp;
 new_node->next = NULL;
-}
 return (new_node);
 }
 
