@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
-  * dlistint_len - adds new node at the end of a list0
+  * add_dnodeint_end - adds new node at the end of a list0
   *@ head: head of linked list
   *@ n: data of type int
   * Return: the address of the new element, or NULL if it failed
@@ -22,7 +22,10 @@ if (new_node == NULL)
 	return (NULL);
 
 if (temp == NULL)
+{
 	*head = new_node;
+	return (new_node);
+}
 else
 {
 while (temp->next != NULL)

@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
-  * dlistint_len - adds new node at the beginning of a list0
-  *@ head: head of linked list
-  *@ n: data of type int
+  *add_dnodeint - adds new node at the beginning of a list0
+  *@head: head of linked list
+  *@n: data of type int
   * Return: the address of the new element, or NULL if it failed
   **/
 
