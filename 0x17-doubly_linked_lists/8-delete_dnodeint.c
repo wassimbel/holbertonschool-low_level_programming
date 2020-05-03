@@ -48,6 +48,7 @@ while (temp != NULL && i < index)
 	{
 		temp->prev->next = NULL;
 		free(temp);
+		return (1);
 	}
 	return (-1);
 }
