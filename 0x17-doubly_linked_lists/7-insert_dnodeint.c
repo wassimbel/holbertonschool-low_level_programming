@@ -21,7 +21,7 @@ new_node->n = n;
 new_node->next = NULL;
 new_node->prev = NULL;
 
-if(new_node == NULL)
+if (new_node == NULL)
 	return (NULL);
 
 if (idx == 0)
@@ -39,7 +39,7 @@ if (idx == 0)
 	return (new_node);
 }
 
-while (temp != NULL && i < idx -1)
+while (temp != NULL && i < (idx - 1))
 {
 	temp = temp->next;
 	i++;
