@@ -21,10 +21,9 @@ new_node->prev = NULL;
 if (new_node == NULL)
 	return (NULL);
 
-if (temp == NULL)
+if (*head == NULL)
 {
 	*head = new_node;
-	new_node->prev = NULL;
 	return (new_node);
 }
 
@@ -36,6 +35,5 @@ while (temp->next != NULL)
 
 temp->next = new_node;
 new_node->prev = temp;
-new_node->next = NULL;
 return (new_node);
 }
