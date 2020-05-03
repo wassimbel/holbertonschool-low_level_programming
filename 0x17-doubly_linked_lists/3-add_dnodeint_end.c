@@ -24,7 +24,7 @@ if (new_node == NULL)
 if (temp == NULL)
 {
 	*head = new_node;
-	new_node->prev = NULL
+	new_node->prev = NULL;
 	return (new_node);
 }
 
