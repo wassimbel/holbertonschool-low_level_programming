@@ -24,17 +24,18 @@ if (new_node == NULL)
 if (temp == NULL)
 {
 	*head = new_node;
+	new_node->prev = NULL
+	return (new_node);
 }
 
-else
+
+while (temp->next != NULL)
 {
-	while (temp->next != NULL)
-	{
 	temp = temp->next;
-	}
-
-	temp->next = new_node;
-	new_node->prev = temp;
 }
+
+temp->next = new_node;
+new_node->prev = temp;
+new_node->next = NULL;
 return (new_node);
 }
