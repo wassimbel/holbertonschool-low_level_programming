@@ -12,9 +12,9 @@ void hash_table_delete(hash_table_t *ht)
 
 	if (!ht)
 		return;
-	node = ht->array[i];
 	while (i < ht->size)
 	{
+		node = ht->array[i];
 		while (node)
 		{
 			tmp = node->next;
